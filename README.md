@@ -7,7 +7,7 @@ FeedPlay is a comprehensive gaming application that provides users with a vast c
 ### Game Structure
 *   **Total Games**: The app has a total of 1152 games available.
 *   **Locked/Unlocked Mechanism**: Some games may be locked initially. Users can unlock these games either through in-app purchases or by watching rewarded video ads. The `OfflineStorageService` manages this locked/unlocked status.
-*   **Game Data**: Games are represented as `GameModel` objects, which include details such as the game's `id`, `name`, `url`, `imagePath`, `category`, `description`, and orientation. Game data is loaded from `assets/html5.json` or `assets/data.json` files.
+*   **Game Data**: Games are represented as `GameModel` objects, which include details such as the game's `id`, `name`, `url`, `imagePath`, `category`, `description`, and orientation. G
 
 ## Revenue Generation Strategy (Ads)
 
